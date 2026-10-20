@@ -14,4 +14,4 @@ focus     Linux · pentesting · web development
 stack     Rust · Python · C · PHP · JavaScript · HTML · CSS
 ```
 
-If a bug is real, I want a clean repro. If a fix is good, I want the next person to understand it.
+🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲🇯🇲
