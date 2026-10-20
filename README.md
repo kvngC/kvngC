@@ -1,27 +1,17 @@
 <p align="center">
-  <img src="./assets/field-notes.svg" alt="kvngC: Trace the unknown. Build with intent." width="100%" />
+  <img src="./assets/field-notes.svg" alt="kvngC security profile with animated colorful KE logo" width="100%" />
 </p>
 
-### `> whoami`
+### `$ whoami`
 
-I'm **Chavez West**. I build tools where security, systems, and creative software meet. I like understanding how things behave at the edges, then making something useful from what I find.
+I'm **Chavez West**, a cybersecurity analyst and security architect. I investigate web application risk, test what can actually be exploited, and design defenses people can maintain.
+
+I'm proficient in **Linux, penetration testing, and web development**. I work with **Rust, Python, C, PHP, JavaScript, HTML, and CSS**.
 
 ```text
-signal      security-minded software
-language    Rust, and whatever the problem calls for
-method      observe → understand → build
+role      cybersecurity analyst / security architect
+focus     Linux · pentesting · web development
+stack     Rust · Python · C · PHP · JavaScript · HTML · CSS
 ```
 
-### `> current_channels`
-
-| Channel | What pulls me in |
-| :-- | :-- |
-| `01 / TRACE` | Web behavior, edge cases, and practical security. |
-| `02 / BUILD` | Small, deliberate tools with clear behavior. |
-| `03 / CREATE` | The overlap between code, sound, and interaction. |
-
-### `> operating_principles`
-
-`stay curious` &nbsp; / &nbsp; `verify the result` &nbsp; / &nbsp; `make it useful`
-
-<sub>FIELD NOTES // kvngC // always learning</sub>
+If a bug is real, I want a clean repro. If a fix is good, I want the next person to understand it.
