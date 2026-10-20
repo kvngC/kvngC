@@ -27,8 +27,8 @@
   <rect x="42" y="36" width="32" height="24" rx="3" fill="#19D7F5"/>
   <path d="m51 44 7 5-7 5m11 0h7" fill="none" stroke="#09111C" stroke-width="2.5"/>
   <text x="91" y="54" fill="#C5D6E5" font-family="Menlo,Consolas,monospace" font-size="15" font-weight="700" letter-spacing="2">KVNGC / SECURITY LAB</text>
-  <text x="43" y="139" fill="#F4F7FA" font-family="Menlo,Consolas,monospace" font-size="43" font-weight="700" letter-spacing="-2">inspect --assume-nothing</text>
-  <rect id="cursor" x="719" y="105" width="15" height="41" fill="#BEFF69"/>
+  <text x="43" y="139" fill="#F4F7FA" font-family="Menlo,Consolas,monospace" font-size="43" font-weight="700" letter-spacing="-2">Chavez West</text>
+  <rect id="cursor" x="346" y="105" width="15" height="41" fill="#BEFF69"/>
   <text x="44" y="192" fill="#19D7F5" font-family="Menlo,Consolas,monospace" font-size="17" letter-spacing="1.2">ANALYST  /  ARCHITECT  /  BUILDER</text>
   <text x="44" y="234" fill="#9BAFC1" font-family="Menlo,Consolas,monospace" font-size="13" letter-spacing="1.2">LINUX • PENTESTING • WEB DEVELOPMENT</text>
   <text x="44" y="295" fill="#A8B8C8" font-family="Menlo,Consolas,monospace" font-size="13" letter-spacing="1.1">RUST  /  PYTHON  /  C  /  PHP  /  JS  /  HTML  /  CSS</text>
