@@ -1,42 +1,46 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
-  <title id="title">kvngC — Trace the unknown. Build with intent.</title>
-  <desc id="desc">A dark technical field-notes banner with a lime signal grid and an abstract K scanner mark.</desc>
-  <defs>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#24323A" stroke-width="1"/>
-    </pattern>
-    <linearGradient id="fade" x1="0" x2="1">
-      <stop offset="0" stop-color="#B8FF65" stop-opacity=".13"/>
-      <stop offset="1" stop-color="#B8FF65" stop-opacity="0"/>
-    </linearGradient>
-    <clipPath id="frame"><rect x="1" y="1" width="1198" height="318" rx="16"/></clipPath>
-  </defs>
-  <g clip-path="url(#frame)">
-    <rect width="1200" height="320" fill="#0A1014"/>
-    <rect width="1200" height="320" fill="url(#grid)" opacity=".48"/>
-    <path d="M0 0h730L540 320H0z" fill="url(#fade)"/>
-    <path d="M0 272h1200M768 0v320" stroke="#25343B"/>
-    <path d="M0 272h1200" stroke="#B8FF65" stroke-opacity=".55"/>
-    <rect x="42" y="37" width="33" height="24" rx="3" fill="#B8FF65"/>
-    <path d="m51 44 7 5-7 5m10 0h7" fill="none" stroke="#0A1014" stroke-width="2.5" stroke-linecap="square" stroke-linejoin="miter"/>
-    <text x="91" y="55" fill="#B8FF65" font-family="Menlo, Consolas, monospace" font-size="15" font-weight="700" letter-spacing="2.4">KVNGC / FIELD NOTES</text>
-    <text x="43" y="131" fill="#F1F6ED" font-family="Menlo, Consolas, monospace" font-size="48" font-weight="700" letter-spacing="-2">TRACE THE UNKNOWN.</text>
-    <text x="43" y="190" fill="#B8FF65" font-family="Menlo, Consolas, monospace" font-size="48" font-weight="700" letter-spacing="-2">BUILD WITH INTENT.</text>
-    <text x="44" y="235" fill="#8BA0A0" font-family="Menlo, Consolas, monospace" font-size="15" letter-spacing="1.4">SECURITY  /  SYSTEMS  /  CREATIVE CODE</text>
-    <text x="44" y="301" fill="#9CADAF" font-family="Menlo, Consolas, monospace" font-size="12" letter-spacing="1.8">OBSERVE  →  UNDERSTAND  →  BUILD</text>
-    <g transform="translate(976 148)">
-      <circle r="112" fill="#0D171B" stroke="#30423F" stroke-width="1"/>
-      <circle r="88" fill="none" stroke="#B8FF65" stroke-opacity=".32" stroke-width="1" stroke-dasharray="3 9"/>
-      <circle r="65" fill="none" stroke="#3E6852" stroke-width="1"/>
-      <circle r="39" fill="none" stroke="#B8FF65" stroke-opacity=".25" stroke-width="1"/>
-      <path d="M-126 0h252M0-126v252" stroke="#B8FF65" stroke-opacity=".15"/>
-      <path d="M-24-48v96M-24 0 27-48M-24 0 30 48" fill="none" stroke="#F1F6ED" stroke-width="9" stroke-linecap="square"/>
-      <path d="M-24 0 30 48" fill="none" stroke="#B8FF65" stroke-width="9" stroke-linecap="square"/>
-      <circle cx="59" cy="-58" r="5" fill="#FF7557"/>
-      <circle cx="-72" cy="52" r="3" fill="#B8FF65"/>
-      <path d="M-104-55a118 118 0 0 1 47-54M70 97a118 118 0 0 1-52 19" fill="none" stroke="#B8FF65" stroke-width="4" stroke-linecap="round"/>
-    </g>
-    <text x="813" y="301" fill="#9CADAF" font-family="Menlo, Consolas, monospace" font-size="12" letter-spacing="1.6">SIGNAL: ON  /  MODE: CURIOUS</text>
-  </g>
-  <rect x="1" y="1" width="1198" height="318" rx="16" fill="none" stroke="#41564E" stroke-width="2"/>
+<title id="title">kvngC security profile</title>
+<desc id="desc">Animated technical banner with a colorful KVNG Enterprise KE monogram, moving scanner, and blinking terminal cursor.</desc>
+<style>
+  @keyframes spin { to { transform: rotate(360deg); } }
+  @keyframes scan { from { transform: translateY(-26px); } to { transform: translateY(346px); } }
+  @keyframes blink { 0%, 48% { opacity: 1; } 49%, 100% { opacity: 0; } }
+  @keyframes pulse { 50% { opacity: .35; } }
+  #orbit { transform-origin: 976px 149px; animation: spin 14s linear infinite; }
+  #scan { animation: scan 7s linear infinite; }
+  #cursor { animation: blink 1s steps(1) infinite; }
+  #status { animation: pulse 2.4s ease-in-out infinite; }
+  @media (prefers-reduced-motion: reduce) { #orbit, #scan, #cursor, #status { animation: none; } }
+</style>
+<defs>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#25344B" stroke-width="1"/></pattern>
+  <linearGradient id="logo" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#19D7F5"/><stop offset=".48" stop-color="#A864FF"/><stop offset="1" stop-color="#BEFF69"/></linearGradient>
+  <linearGradient id="beam" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#19D7F5" stop-opacity="0"/><stop offset="1" stop-color="#19D7F5" stop-opacity=".12"/></linearGradient>
+  <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5"/></filter>
+  <clipPath id="clip"><rect x="1" y="1" width="1198" height="318" rx="16"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+  <rect width="1200" height="320" fill="#09111C"/>
+  <rect width="1200" height="320" fill="url(#grid)" opacity=".45"/>
+  <path d="M793 0v320M0 264h1200" stroke="#345068"/>
+  <g id="scan"><rect x="0" y="0" width="1200" height="24" fill="url(#beam)"/><path d="M0 24h1200" stroke="#19D7F5" stroke-opacity=".22"/></g>
+  <rect x="42" y="36" width="32" height="24" rx="3" fill="#19D7F5"/>
+  <path d="m51 44 7 5-7 5m11 0h7" fill="none" stroke="#09111C" stroke-width="2.5"/>
+  <text x="91" y="54" fill="#C5D6E5" font-family="Menlo,Consolas,monospace" font-size="15" font-weight="700" letter-spacing="2">KVNGC / SECURITY LAB</text>
+  <text x="43" y="139" fill="#F4F7FA" font-family="Menlo,Consolas,monospace" font-size="43" font-weight="700" letter-spacing="-2">inspect --assume-nothing</text>
+  <rect id="cursor" x="719" y="105" width="15" height="41" fill="#BEFF69"/>
+  <text x="44" y="192" fill="#19D7F5" font-family="Menlo,Consolas,monospace" font-size="17" letter-spacing="1.2">ANALYST  /  ARCHITECT  /  BUILDER</text>
+  <text x="44" y="234" fill="#9BAFC1" font-family="Menlo,Consolas,monospace" font-size="13" letter-spacing="1.2">LINUX • PENTESTING • WEB DEVELOPMENT</text>
+  <text x="44" y="295" fill="#A8B8C8" font-family="Menlo,Consolas,monospace" font-size="13" letter-spacing="1.1">RUST  /  PYTHON  /  C  /  PHP  /  JS  /  HTML  /  CSS</text>
+  <circle cx="976" cy="149" r="116" fill="#0B1725" stroke="#36516A"/>
+  <circle cx="976" cy="149" r="97" fill="none" stroke="#536477" stroke-dasharray="2 8"/>
+  <circle cx="976" cy="149" r="76" fill="none" stroke="#406078"/>
+  <g id="orbit"><path d="M976 52a97 97 0 0 1 97 97" fill="none" stroke="#19D7F5" stroke-width="3" stroke-linecap="round"/><circle cx="976" cy="52" r="5" fill="#BEFF69"/></g>
+  <path d="M-92-73h28v56l51-56h37L-44 0l70 73h-39l-51-54v54h-28z M29-73h131v28H58v30h92v28H58v32h102v28H29z" transform="translate(976 149) scale(.76)" fill="url(#logo)" filter="url(#glow)" opacity=".65"/>
+  <path d="M-92-73h28v56l51-56h37L-44 0l70 73h-39l-51-54v54h-28z M29-73h131v28H58v30h92v28H58v32h102v28H29z" transform="translate(976 149) scale(.76)" fill="url(#logo)"/>
+  <text x="976" y="239" text-anchor="middle" fill="#E9F1F7" font-family="Menlo,Consolas,monospace" font-size="14" font-weight="700" letter-spacing="1.7">KVNG ENTERPRISE</text>
+  <circle id="status" cx="815" cy="290" r="5" fill="#BEFF69"/>
+  <text x="829" y="295" fill="#9BAFC1" font-family="Menlo,Consolas,monospace" font-size="12" letter-spacing="1">SYSTEM ONLINE</text>
+</g>
+<rect x="1" y="1" width="1198" height="318" rx="16" fill="none" stroke="#3C576F" stroke-width="2"/>
 </svg>
