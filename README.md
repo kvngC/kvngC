@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/field-notes.svg" alt="kvngC security profile with animated colorful KE logo" width="100%" />
+  <img src="./assets/field-notes.svg?v=2" alt="kvngC security profile with animated colorful KE logo" width="100%" />
 </p>
 
 ### `$ whoami`
